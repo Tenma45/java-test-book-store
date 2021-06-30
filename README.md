@@ -28,9 +28,17 @@
 
 https://github.com/Tenma45/java-test-bookstore
 
-4. ทำการทดสอบระบบงานที่พัฒนาด้วย Spring Boot และ 5. API testing with Postman
+4. ทำการทดสอบระบบงานที่พัฒนาด้วย Spring Boot
+### ทดสอบบน Browser
+![Browser Test](https://github.com/Tenma45/java-test-book-store/blob/main/markdown/addBooks.png)
 
-![GitHub Logo](/tree/main/markdown/getBook.png)
+5. API testing with Postman
+### ทดสอบ Add Books
+![add Books Test](https://github.com/Tenma45/java-test-book-store/blob/main/markdown/addBooks.png)
+### ทดสอบ Get Books
+![get Books Test](https://github.com/Tenma45/java-test-book-store/blob/main/markdown/getBooks.png)
+### ทดสอบ Buy Books
+![buy Books Test](https://github.com/Tenma45/java-test-book-store/blob/main/markdown/buyBooks.png)
 
 https://github.com/Tenma45/java-test-book-store/tree/main/markdown
 
