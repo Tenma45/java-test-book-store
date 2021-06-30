@@ -4,20 +4,33 @@
 
 1. ทำการออกแบบ RESTful APIs  
 
-|Method|URL|Usage|Response|
-| --- | --- | --- | --- |
-|GET|/book| เรียกดูหนังสือทั้งหมด | หนังสือทั้งหมด     |
-|POST|/book|    เพิ่มหนังสือ(เล่มเดียว) | หนังสือที่เพิ่มเข้าไป     |
-|POST|/books|    เพิ่มลิสต์ของหนังสือ(หลายเล่ม) | ลิสต์ของหนังสือที่เพิ่มเข้าไป     |
-|PUT|/book|    ซื้อหนังสือ | ราคาที่ต้องจ่าย     |
+|Method|URL|Usage|Request|Response|
+| --- | --- | --- | --- |---| 
+|GET|/book| เรียกดูหนังสือทั้งหมด | - | หนังสือทั้งหมด     |
+|POST|/book|    เพิ่มหนังสือ(เล่มเดียว) | ข้อมูลหนังสือ | หนังสือที่เพิ่มเข้าไป     |
+|POST|/books|    เพิ่มลิสต์ของหนังสือ(หลายเล่ม) | ลิสต์ของข้อมูลหนังสือ | ลิสต์ของหนังสือที่เพิ่มเข้าไป     |
+|PUT|/book|    ซื้อหนังสือ | ลิสต์ของออเดอร์ | ราคาที่ต้องจ่าย     |
 
 2. ทำการออกแบบ Database structure สำหรับจัดเก็บข้อมูลของระบบงาน
+### Book
+|Field|Type|Definition|Property|
+| --- | --- | --- | --- |
+|volume|Integer| หมายเลขเล่ม | Id |
+|title|String| ชื่อภาค | - |
+|count|Integer| จำนวนของหนังสือ | - | 
+### BookOrder
+|Field|Type|Usage|Key|
+| --- | --- | --- | --- |
+|volume|Integer| หมายเลขเล่ม | - |
+|count|Integer|  จำนวนที่ซื้อ | ข้อมูลหนังสือ |
 
 3. ทำการพัฒนา RESTful API ด้วย Spring Boot (Controller layer, Service layer, Repository layer, and Gateway layer)
 
 https://github.com/Tenma45/java-test-bookstore
 
 4. ทำการทดสอบระบบงานที่พัฒนาด้วย Spring Boot และ 5. API testing with Postman
+
+![GitHub Logo](/tree/main/markdown/getBook.png)
 
 https://github.com/Tenma45/java-test-book-store/tree/main/markdown
 
