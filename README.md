@@ -26,7 +26,7 @@
 
 3. ทำการพัฒนา RESTful API ด้วย Spring Boot (Controller layer, Service layer, Repository layer, and Gateway layer)
 
-https://github.com/Tenma45/java-test-bookstore
+https://github.com/Tenma45/java-test-book-store
 
 4. ทำการทดสอบระบบงานที่พัฒนาด้วย Spring Boot
 ### ทดสอบบน Browser
